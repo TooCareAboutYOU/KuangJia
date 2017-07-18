@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KuangJia.iml" filepath="$PROJECT_DIR$/KuangJia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuangjia_fragment/kuangjia_fragment.iml" filepath="$PROJECT_DIR$/kuangjia_fragment/kuangjia_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuangjia_htmljsoup/kuangjia_htmljsoup.iml" filepath="$PROJECT_DIR$/kuangjia_htmljsoup/kuangjia_htmljsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuangjia_svgdrawable/kuangjia_svgdrawable.iml" filepath="$PROJECT_DIR$/kuangjia_svgdrawable/kuangjia_svgdrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_okhttp/sample_okhttp.iml" filepath="$PROJECT_DIR$/sample_okhttp/sample_okhttp.iml" />
+    </modules>
+  </component>
+</project>

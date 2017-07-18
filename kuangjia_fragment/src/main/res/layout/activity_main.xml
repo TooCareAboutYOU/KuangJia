@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/dialog_fragment"/>
+
+    <Button
+        android:id="@+id/btn_show_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/fragment1"/>
+
+    <Button
+        android:id="@+id/btn_show_fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/fragment2"/>
+
+    <FrameLayout
+        android:id="@+id/fl_group"
+        android:layout_width="match_parent"
+        android:layout_height="203dp" />
+
+</LinearLayout>

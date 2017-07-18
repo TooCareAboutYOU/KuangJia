@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment2">显示Fragment2</string>
+    <string name="fragment1">显示Fragment1</string>
+    <string name="second_fragment">Second_Fragment</string>
+</resources>

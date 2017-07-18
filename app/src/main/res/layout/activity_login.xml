@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <com.kuangjia.main.widget.BiuEditText
+        android:id="@+id/bt_name"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入用户名"
+        android:textColor="@color/colorPrimaryDark"
+        app:biu_duration="800"
+        app:biu_text_color="@color/red"
+        app:biu_text_scale="1.5"
+        app:biu_text_start_size="12sp"
+        app:biu_type="flydown"/>
+
+    <com.kuangjia.main.widget.BiuEditText
+        android:id="@+id/bt_pwd"
+        android:layout_below="@+id/bt_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:hint="请输入密码"
+        android:textColor="@color/colorPrimaryDark"
+        app:biu_duration="800"
+        app:biu_text_color="@color/red"
+        app:biu_text_scale="1.5"
+        app:biu_text_start_size="12sp"
+        app:biu_type="flyup" />
+
+    <LinearLayout
+        android:id="@+id/ll_btngroup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/bt_pwd"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:onClick="setUserInfo"
+            android:text="写  入"/>
+        <Button
+            android:id="@+id/btn_get"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:onClick="getUserInfo"
+            android:text="读  取"/>
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:onClick="clearUserInfo"
+            android:text="清  空"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_btngroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:hint="返回数据"/>
+
+
+</RelativeLayout>

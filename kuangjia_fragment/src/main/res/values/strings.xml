@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">kuangjia_fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">First_Fragment</string>
+    <string name="fragment2">显示Fragment2</string>
+    <string name="fragment1">显示Fragment1</string>
+    <string name="dialog_fragment">dialog_fragment</string>
+    <string name="second_fragment">Second_Fragment</string>
+</resources>
